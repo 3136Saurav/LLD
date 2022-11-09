@@ -75,4 +75,8 @@ class VendingMachine {
         setAmount(0);
         setState(new NoCoinInsertedState(this));
     }
+
+    public boolean isValidPosition(String position) {
+        return inventory.getPositionToProductMap().containsKey(position);
+    }
 }

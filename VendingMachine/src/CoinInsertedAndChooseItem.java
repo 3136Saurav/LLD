@@ -14,6 +14,10 @@ public class CoinInsertedAndChooseItem implements VendingMachineState {
     public void chooseItem(String position) {
         Inventory inventory = vendingMachine.getInventory();
         Product product = inventory.getProductAt(position);
+        if (!vendingMachine.isValidPosition(position)) {
+            throw new IllegalArgumentException("Not a valid choice!!");
+        }
+
         if (!vendingMachine.hasSufficientAmount(product.getPrice())) {
             throw new IllegalArgumentException("Please give more coins!!");
         }
