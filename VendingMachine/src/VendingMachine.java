@@ -42,9 +42,6 @@ class VendingMachine {
 
     public void chooseItem(String position) {
         this.getState().chooseItem(position);
-    }
-
-    public void dispenseItem() {
         this.getState().dispenseItem();
     }
 

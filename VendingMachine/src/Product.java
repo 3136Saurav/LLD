@@ -2,11 +2,21 @@ public class Product {
     String name;
     String description;
     int price;
+    long id;
 
-    public Product(String name, String description, int price) {
+    public Product(long id, String name, String description, int price) {
         this.name = name;
         this.description = description;
         this.price = price;
+        this.id = id;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
     }
 
     public String getName() {

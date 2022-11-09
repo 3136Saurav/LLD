@@ -13,8 +13,7 @@ public class Main {
 
     private static void simulateUserInteraction(VendingMachine vendingMachine) {
         vendingMachine.insertCoin(30);
-        vendingMachine.chooseItem("B2");
-        vendingMachine.dispenseItem();
+        vendingMachine.chooseItem("B3");
     }
 
 
@@ -23,15 +22,15 @@ public class Main {
         Map<Product, Integer> productFrequencyMap = new HashMap<>();
         Map<String, Product> productToPositionMap = new HashMap<>();
 
-        Product doritos = new Product("Doritos", "Chips", 20);
-        Product redBull = new Product("Red Bull", "Energy Drink", 80);
-        Product dairyMilk = new Product("Dairy Milk", "Chocolate", 70);
-        Product pretzels = new Product("Pretzels", "Pretzels", 40);
-        Product cheetos = new Product("Cheetos", "Chips", 30);
-        Product cocaCola = new Product("Coca Cola", "Soft Drink", 20);
-        Product seltzer = new Product("Seltzer", "High Drink", 50);
-        Product lays = new Product("Lays", "Chips", 20);
-        Product jalapeno = new Product("Jalapeno", "Wafers", 60);
+        Product doritos = new Product(1, "Doritos", "Chips", 20);
+        Product redBull = new Product(2, "Red Bull", "Energy Drink", 80);
+        Product dairyMilk = new Product(3, "Dairy Milk", "Chocolate", 70);
+        Product pretzels = new Product(4, "Pretzels", "Pretzels", 40);
+        Product cheetos = new Product(5, "Cheetos", "Chips", 30);
+        Product cocaCola = new Product(6, "Coca Cola", "Soft Drink", 20);
+        Product seltzer = new Product(7, "Seltzer", "High Drink", 50);
+        Product lays = new Product(8, "Lays", "Chips", 20);
+        Product jalapeno = new Product(9, "Jalapeno", "Wafers", 60);
 
         productFrequencyMap.put(doritos, 4);
         productFrequencyMap.put(redBull, 3);
@@ -53,7 +52,7 @@ public class Main {
         productToPositionMap.put("C2", lays);
         productToPositionMap.put("C3", jalapeno);
 
-        inventory.setProductToPositionMap(productToPositionMap);
+        inventory.setPositionToProductMap(productToPositionMap);
         inventory.setProductFrequencyMap(productFrequencyMap);
 
         return inventory;
