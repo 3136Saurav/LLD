@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public class Margherita {
+public class Margherita extends BasePizza{
+
+    @Override
+    public int getCost() {
+        return 100;
+    }
 }

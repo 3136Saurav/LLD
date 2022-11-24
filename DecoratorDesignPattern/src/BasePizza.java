@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public class BasePizza {
+public abstract class BasePizza {
+    public abstract int getCost();
 }

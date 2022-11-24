@@ -1,8 +1,7 @@
-public class Margherita extends BasePizza{
-    BasePizza basePizza;
+public class VegDelight extends BasePizza{
 
     @Override
     public int getCost() {
-        return 100;
+        return 200;
     }
 }

@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public class ToppingDecorator {
+public abstract class ToppingDecorator extends BasePizza {
+
 }

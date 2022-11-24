@@ -1,12 +1,12 @@
-public class Corn extends BasePizza {
+public class Mushroom extends BasePizza {
     BasePizza basePizza;
 
-    public Corn(BasePizza basePizza) {
+    public Mushroom(BasePizza basePizza) {
         this.basePizza = basePizza;
     }
 
     @Override
     public int getCost() {
-        return basePizza.getCost() + 15;
+        return basePizza.getCost() + 10;
     }
 }
