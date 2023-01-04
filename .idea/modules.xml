@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BookMyShow/BookMyShow.iml" filepath="$PROJECT_DIR$/BookMyShow/BookMyShow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DecoratorDesignPattern/DecoratorDesignPattern.iml" filepath="$PROJECT_DIR$/DecoratorDesignPattern/DecoratorDesignPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FileDirectory/FileDirectory.iml" filepath="$PROJECT_DIR$/FileDirectory/FileDirectory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LLD.iml" filepath="$PROJECT_DIR$/LLD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Logger/Logger.iml" filepath="$PROJECT_DIR$/Logger/Logger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ParkingLot/ParkingLot.iml" filepath="$PROJECT_DIR$/ParkingLot/ParkingLot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SnakesAndLadder/SnakesAndLadder.iml" filepath="$PROJECT_DIR$/SnakesAndLadder/SnakesAndLadder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StrategyDesignPattern/StrategyDesignPattern.iml" filepath="$PROJECT_DIR$/StrategyDesignPattern/StrategyDesignPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TicTacToe/TicTacToe.iml" filepath="$PROJECT_DIR$/TicTacToe/TicTacToe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VehicleRentalSystem/VehicleRentalSystem.iml" filepath="$PROJECT_DIR$/VehicleRentalSystem/VehicleRentalSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VendingMachine/VendingMachine.iml" filepath="$PROJECT_DIR$/VendingMachine/VendingMachine.iml" />
+    </modules>
+  </component>
+</project>

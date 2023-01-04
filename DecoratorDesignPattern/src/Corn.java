@@ -1,4 +1,4 @@
-public class Corn extends BasePizza {
+public class Corn extends ToppingDecorator {
     BasePizza basePizza;
 
     public Corn(BasePizza basePizza) {
